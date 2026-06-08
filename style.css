@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s; 
+    background-color: #ffffff; /* Warna asal background: Putih */
+    color: #333333;            /* Warna asal tulisan: Kelabu Gelap */
+}
+
+.kotak-projek {
+    border: 2px dashed #bbb;
+    padding: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sub-tajuk {
+    font-weight: bold;
+    color: #555;
+}
+
+.butang-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid #333;
+    background-color: #ffffff;
+    color: #333333;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
